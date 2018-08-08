@@ -5,9 +5,9 @@ if BUILD_BITCOIND
 endif
 
 if ENABLE_QT
-  dist_man1_MANS+=dash-qt.1
+  dist_man1_MANS+=btcgreen-qt.1
 endif
 
 if BUILD_BITCOIN_UTILS
-  dist_man1_MANS+=dash-cli.1 dash-tx.1
+  dist_man1_MANS+=btcgreen-cli.1 btcgreen-tx.1
 endif
