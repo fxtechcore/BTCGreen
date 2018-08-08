@@ -1342,7 +1342,7 @@
     </message>
     <message>
         <source>Amount of Btcgreen to keep anonymized</source>
-        <translation>Quantidade de dashs para manter anonimizado</translation>
+        <translation>Quantidade de btcgreens para manter anonimizado</translation>
     </message>
     <message>
         <source>W&amp;allet</source>

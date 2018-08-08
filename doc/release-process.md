@@ -151,7 +151,7 @@ rm SHA256SUMS
 
 - Announce the release:
 
-  - Release sticky on dashtalk: https://dashtalk.org/index.php?board=1.0 ***TODO***
+  - Release sticky on btcgreentalk: https://btcgreentalk.org/index.php?board=1.0 ***TODO***
 
   - Btcgreen-development mailing list
 

@@ -55,8 +55,8 @@ Value darksend(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() == 0)
         throw runtime_error(
-            "darksend <dashaddress> <amount>\n"
-            "dashaddress, reset, or auto (AutoDenominate)"
+            "darksend <btcgreenaddress> <amount>\n"
+            "btcgreenaddress, reset, or auto (AutoDenominate)"
             "<amount> is a real and will be rounded to the next 0.1"
             + HelpRequiringPassphrase());
 
@@ -77,8 +77,8 @@ Value darksend(const Array& params, bool fHelp)
 
     if (params.size() != 2)
         throw runtime_error(
-            "darksend <dashaddress> <amount>\n"
-            "dashaddress, denominate, or auto (AutoDenominate)"
+            "darksend <btcgreenaddress> <amount>\n"
+            "btcgreenaddress, denominate, or auto (AutoDenominate)"
             "<amount> is a real and will be rounded to the next 0.1"
             + HelpRequiringPassphrase());
 

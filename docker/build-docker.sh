@@ -3,17 +3,17 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR/..
 
-DOCKER_IMAGE=${DOCKER_IMAGE:-fxtechcore/dashd-develop}
+DOCKER_IMAGE=${DOCKER_IMAGE:-fxtechcore/btcgreend-develop}
 DOCKER_TAG=${DOCKER_TAG:-latest}
 
 BUILD_DIR=${BUILD_DIR:-.}
 
 rm docker/bin/*
 mkdir docker/bin
-cp $BUILD_DIR/src/dashd docker/bin/
+cp $BUILD_DIR/src/btcgreend docker/bin/
 cp $BUILD_DIR/src/btcgreen-cli docker/bin/
 cp $BUILD_DIR/src/btcgreen-tx docker/bin/
-strip docker/bin/dashd
+strip docker/bin/btcgreend
 strip docker/bin/btcgreen-cli
 strip docker/bin/btcgreen-tx
 

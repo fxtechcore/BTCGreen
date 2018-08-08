@@ -376,7 +376,7 @@ SOURCES += src/activemasternode.cpp \
            src/darksend.cpp \
            src/btcgreen-cli.cpp \
            src/btcgreen-tx.cpp \
-           src/dashd.cpp \
+           src/btcgreend.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -472,7 +472,7 @@ SOURCES += src/activemasternode.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/darksendconfig.cpp \
            src/qt/btcgreen.cpp \
-           src/qt/dashstrings.cpp \
+           src/qt/btcgreenstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_dash.cpp \
+           src/test/test_btcgreen.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,20 +641,20 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/btcgreen.qrc src/qt/dash_locale.qrc
-TRANSLATIONS += src/qt/locale/dash_bg.ts \
-                src/qt/locale/dash_de.ts \
-                src/qt/locale/dash_en.ts \
-                src/qt/locale/dash_es.ts \
-                src/qt/locale/dash_fi.ts \
-                src/qt/locale/dash_fr.ts \
-                src/qt/locale/dash_it.ts \
-                src/qt/locale/dash_ja.ts \
-                src/qt/locale/dash_pl.ts \
-                src/qt/locale/dash_pt.ts \
-                src/qt/locale/dash_ru.ts \
-                src/qt/locale/dash_sk.ts \
-                src/qt/locale/dash_sv.ts \
-                src/qt/locale/dash_vi.ts \
-                src/qt/locale/dash_zh_CN.ts \
-                src/qt/locale/dash_zh_TW.ts
+RESOURCES += src/qt/btcgreen.qrc src/qt/btcgreen_locale.qrc
+TRANSLATIONS += src/qt/locale/btcgreen_bg.ts \
+                src/qt/locale/btcgreen_de.ts \
+                src/qt/locale/btcgreen_en.ts \
+                src/qt/locale/btcgreen_es.ts \
+                src/qt/locale/btcgreen_fi.ts \
+                src/qt/locale/btcgreen_fr.ts \
+                src/qt/locale/btcgreen_it.ts \
+                src/qt/locale/btcgreen_ja.ts \
+                src/qt/locale/btcgreen_pl.ts \
+                src/qt/locale/btcgreen_pt.ts \
+                src/qt/locale/btcgreen_ru.ts \
+                src/qt/locale/btcgreen_sk.ts \
+                src/qt/locale/btcgreen_sv.ts \
+                src/qt/locale/btcgreen_vi.ts \
+                src/qt/locale/btcgreen_zh_CN.ts \
+                src/qt/locale/btcgreen_zh_TW.ts

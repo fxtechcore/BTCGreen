@@ -7,9 +7,9 @@ User=btcgreen
 Group=btcgreen
 
 Type=forking
-PIDFile=/var/lib/dashd/dashd.pid
-ExecStart=/usr/bin/dashd -daemon -pid=/var/lib/dashd/dashd.pid \
--conf=/etc/btcgreen/btcgreen.conf -datadir=/var/lib/dashd -disablewallet
+PIDFile=/var/lib/btcgreend/btcgreend.pid
+ExecStart=/usr/bin/btcgreend -daemon -pid=/var/lib/btcgreend/btcgreend.pid \
+-conf=/etc/btcgreen/btcgreen.conf -datadir=/var/lib/btcgreend -disablewallet
 
 Restart=always
 PrivateTmp=true

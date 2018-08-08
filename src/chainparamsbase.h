@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between btcgreen-cli and dashd)
+ * CBaseChainParams defines the base parameters (shared between btcgreen-cli and btcgreend)
  * of a given instance of the Btcgreen system.
  */
 class CBaseChainParams

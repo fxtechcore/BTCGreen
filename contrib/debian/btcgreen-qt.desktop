@@ -7,6 +7,6 @@ Comment[tr]=Btcgreen, eşten eşe kriptografik sanal para birimi
 Exec=btcgreen-qt %u
 Terminal=false
 Type=Application
-Icon=dash128
+Icon=btcgreen128
 MimeType=x-scheme-handler/btcgreen;
 Categories=Office;Finance;

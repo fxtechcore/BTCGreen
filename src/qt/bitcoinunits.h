@@ -58,8 +58,8 @@ public:
     enum Unit
     {
         BTCGREEN,
-        mDASH,
-        uDASH,
+        mBTCGREEN,
+        uBTCGREEN,
         duffs
     };
 

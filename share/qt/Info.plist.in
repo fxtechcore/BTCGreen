@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.btcgreen.DashPayment</string>
+      <string>io.btcgreen.BtcgreenPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>btcgreen</string>
@@ -65,7 +65,7 @@
         <string>application/x-btcgreen-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>dashpaymentrequest</string>
+          <string>btcgreenpaymentrequest</string>
         </array>
       </dict>
     </dict>

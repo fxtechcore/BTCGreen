@@ -7,11 +7,11 @@ reset-files.bash
 
 *.exe
 src/btcgreen
-src/dashd
+src/btcgreend
 src/btcgreen-cli
 src/btcgreen-tx
-src/test/test_dash
-src/qt/test/test_dash-qt
+src/test/test_btcgreen
+src/qt/test/test_btcgreen-qt
 
 # autoreconf
 Makefile.in
@@ -100,7 +100,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_dash.coverage/
+test_btcgreen.coverage/
 total.coverage/
 coverage_percent.txt
 

@@ -176,7 +176,7 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>Btcgreen will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dashs from being stolen by malware infecting your computer.</source>
+        <source>Btcgreen will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your btcgreens from being stolen by malware infecting your computer.</source>
         <translation>Btcgreen kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Btcgreen stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>
@@ -1436,7 +1436,7 @@ https://www.transifex.com/projects/p/btcgreen/</translation>
     </message>
     <message>
         <source>Open the Btcgreen debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Dashs avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
+        <translation>Öppna Btcgreens avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1508,7 +1508,7 @@ https://www.transifex.com/projects/p/btcgreen/</translation>
     </message>
     <message>
         <source>Welcome to the Btcgreen RPC console.</source>
-        <translation>Välkommen till Dashs RPC-konsol.</translation>
+        <translation>Välkommen till Btcgreens RPC-konsol.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>

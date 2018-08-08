@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.btcgreen.dashd</string>
+	<string>org.btcgreen.btcgreend</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/dashd</string>
+		<string>/usr/local/bin/btcgreend</string>
 		<string>-daemon</string>
 	</array>
 	<key>RunAtLoad</key>

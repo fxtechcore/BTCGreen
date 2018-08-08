@@ -17,8 +17,8 @@ You need the Qt4 run-time libraries to run Btcgreen-Qt. On Debian or Ubuntu:
 
 Unpack the files into a directory and run:
 
-- bin/32/btcgreen-qt (GUI, 32-bit) or bin/32/dashd (headless, 32-bit)
-- bin/64/btcgreen-qt (GUI, 64-bit) or bin/64/dashd (headless, 64-bit)
+- bin/32/btcgreen-qt (GUI, 32-bit) or bin/32/btcgreend (headless, 32-bit)
+- bin/64/btcgreen-qt (GUI, 64-bit) or bin/64/btcgreend (headless, 64-bit)
 
 
 
@@ -35,7 +35,7 @@ Drag Btcgreen-Qt to your applications folder, and then run Btcgreen-Qt.
 * See the documentation at the [Btcgreen Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
 * Ask for help on [#fxtechcore](http://webchat.freenode.net?channels=fxtechcore) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=fxtechcore).
-* Ask for help on the [DashTalk](https://dashtalk.org/) forums.
+* Ask for help on the [BtcgreenTalk](https://btcgreentalk.org/) forums.
 
 Building
 ---------------------
@@ -57,7 +57,7 @@ The Btcgreen repo's [root README](https://github.com/fxtechcore/btcgreen/blob/ma
 - [Unit Tests](unit-tests.md)
 
 ### Resources
-* Discuss on the [DashTalk](https://dashtalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on the [BtcgreenTalk](https://btcgreentalk.org/) forums, in the Development & Technical Discussion board.
 * Discuss on [#fxtechcore](http://webchat.freenode.net/?channels=fxtechcore) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=fxtechcore).
 
 ### Miscellaneous

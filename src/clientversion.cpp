@@ -10,7 +10,7 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both dashd and btcgreen-qt, to make it harder for attackers to
+ * for both btcgreend and btcgreen-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
 const std::string CLIENT_NAME("Btcgreen Core");

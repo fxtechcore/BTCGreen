@@ -20,8 +20,8 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
     unitlist.append(BTCGREEN);
-    unitlist.append(mDASH);
-    unitlist.append(uDASH);
+    unitlist.append(mBTCGREEN);
+    unitlist.append(uBTCGREEN);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -31,8 +31,8 @@ bool BitcoinUnits::valid(int unit)
     switch(unit)
     {
     case BTCGREEN:
-    case mDASH:
-    case uDASH:
+    case mBTCGREEN:
+    case uBTCGREEN:
     case duffs:
         return true;
     default:
@@ -45,8 +45,8 @@ QString BitcoinUnits::id(int unit)
     switch(unit)
     {
         case BTCGREEN: return QString("btcgreen");
-        case mDASH: return QString("mdash");
-        case uDASH: return QString::fromUtf8("udash");
+        case mBTCGREEN: return QString("mbtcgreen");
+        case uBTCGREEN: return QString::fromUtf8("ubtcgreen");
         case duffs: return QString("duffs");
         default: return QString("???");
     }
@@ -59,8 +59,8 @@ QString BitcoinUnits::name(int unit)
         switch(unit)
         {
             case BTCGREEN: return QString("BTCGREEN");
-            case mDASH: return QString("mDASH");
-            case uDASH: return QString::fromUtf8("μDASH");
+            case mBTCGREEN: return QString("mBTCGREEN");
+            case uBTCGREEN: return QString::fromUtf8("μBTCGREEN");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -69,9 +69,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case BTCGREEN: return QString("tDASH");
-            case mDASH: return QString("mtDASH");
-            case uDASH: return QString::fromUtf8("μtDASH");
+            case BTCGREEN: return QString("tBTCGREEN");
+            case mBTCGREEN: return QString("mtBTCGREEN");
+            case uBTCGREEN: return QString::fromUtf8("μtBTCGREEN");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -85,8 +85,8 @@ QString BitcoinUnits::description(int unit)
         switch(unit)
         {
             case BTCGREEN: return QString("Btcgreen");
-            case mDASH: return QString("Milli-Btcgreen (1 / 1" THIN_SP_UTF8 "000)");
-            case uDASH: return QString("Micro-Btcgreen (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case mBTCGREEN: return QString("Milli-Btcgreen (1 / 1" THIN_SP_UTF8 "000)");
+            case uBTCGREEN: return QString("Micro-Btcgreen (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-Btcgreen (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -95,10 +95,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case BTCGREEN: return QString("TestDashs");
-            case mDASH: return QString("Milli-TestDash (1 / 1" THIN_SP_UTF8 "000)");
-            case uDASH: return QString("Micro-TestDash (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestDash (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case BTCGREEN: return QString("TestBtcgreens");
+            case mBTCGREEN: return QString("Milli-TestBtcgreen (1 / 1" THIN_SP_UTF8 "000)");
+            case uBTCGREEN: return QString("Micro-TestBtcgreen (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestBtcgreen (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -109,8 +109,8 @@ qint64 BitcoinUnits::factor(int unit)
     switch(unit)
     {
     case BTCGREEN:  return 100000000;
-    case mDASH: return 100000;
-    case uDASH: return 100;
+    case mBTCGREEN: return 100000;
+    case uBTCGREEN: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -121,8 +121,8 @@ int BitcoinUnits::decimals(int unit)
     switch(unit)
     {
     case BTCGREEN: return 8;
-    case mDASH: return 5;
-    case uDASH: return 2;
+    case mBTCGREEN: return 5;
+    case uBTCGREEN: return 2;
     case duffs: return 0;
     default: return 0;
     }

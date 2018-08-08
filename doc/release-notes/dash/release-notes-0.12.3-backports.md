@@ -55,7 +55,7 @@
 - [`4959ff201`](https://github.com/fxtechcore/btcgreen/commit/4959ff201) Fix formatting of help in sendfrom
 - [`a4430b624`](https://github.com/fxtechcore/btcgreen/commit/a4430b624) Fix rpc tests
 - [`5901531bc`](https://github.com/fxtechcore/btcgreen/commit/5901531bc) Use constant 7200 instead of TIMESTAMP_WINDOW for now
-- [`4d3856b5a`](https://github.com/fxtechcore/btcgreen/commit/4d3856b5a) Include test_dash.h instead of test_bitcoin.h
+- [`4d3856b5a`](https://github.com/fxtechcore/btcgreen/commit/4d3856b5a) Include test_btcgreen.h instead of test_bitcoin.h
 - [`d500d77c4`](https://github.com/fxtechcore/btcgreen/commit/d500d77c4) Use nBlockSize/nBlockMaxSize instead of nBlockWeight/nBlockMaxWeight
 - [`12770beb6`](https://github.com/fxtechcore/btcgreen/commit/12770beb6) Merge #10310: [doc] Add hint about getmempoolentry to getrawmempool help.
 - [`e9976d20f`](https://github.com/fxtechcore/btcgreen/commit/e9976d20f) Merge #10495: contrib: Update location of seeds.txt
@@ -115,7 +115,7 @@
 - [`199b07a89`](https://github.com/fxtechcore/btcgreen/commit/199b07a89) Merge #9760: [wallet] Remove importmulti always-true check
 - [`3ab5fab7f`](https://github.com/fxtechcore/btcgreen/commit/3ab5fab7f) Merge #9786: boost: remove iostreams includes
 - [`5e596423a`](https://github.com/fxtechcore/btcgreen/commit/5e596423a) Merge #9785: Avoid variable length arrays
-- [`11a5f2e6a`](https://github.com/fxtechcore/btcgreen/commit/11a5f2e6a) Rename and Dashify .manpages files
+- [`11a5f2e6a`](https://github.com/fxtechcore/btcgreen/commit/11a5f2e6a) Rename and Btcgreenify .manpages files
 - [`6c2fe3d05`](https://github.com/fxtechcore/btcgreen/commit/6c2fe3d05) Remove onlyMaybeDeadlock condition around printing of deadlock info
 - [`9b45c2f65`](https://github.com/fxtechcore/btcgreen/commit/9b45c2f65) Add missing lines about ARM in depends/README.md
 - [`1c8b7b466`](https://github.com/fxtechcore/btcgreen/commit/1c8b7b466) Sync release-notes.md with Bitcoin 0.14
@@ -220,10 +220,10 @@
 - [`71e3e37d9`](https://github.com/fxtechcore/btcgreen/commit/71e3e37d9) Merge #8837: allow bitcoin-tx to parse partial transactions
 - [`3235aad49`](https://github.com/fxtechcore/btcgreen/commit/3235aad49) Implement SipHash in Python
 - [`8e9bae954`](https://github.com/fxtechcore/btcgreen/commit/8e9bae954) Merge pull request #1858 from codablock/pr_backport_bitcoin_0.14-8
-- [`e5daae291`](https://github.com/fxtechcore/btcgreen/commit/e5daae291) Dashify "linearize" README.md and switch the tool to mainnet
+- [`e5daae291`](https://github.com/fxtechcore/btcgreen/commit/e5daae291) Btcgreenify "linearize" README.md and switch the tool to mainnet
 - [`2e02b167e`](https://github.com/fxtechcore/btcgreen/commit/2e02b167e) Move wallet backup dir check to wallet.cpp
 - [`ec8a9e0a6`](https://github.com/fxtechcore/btcgreen/commit/ec8a9e0a6) Add missing Btcgreen specific parameters back in help strings
-- [`b3ee3fc35`](https://github.com/fxtechcore/btcgreen/commit/b3ee3fc35) Dashify example config and help strings
+- [`b3ee3fc35`](https://github.com/fxtechcore/btcgreen/commit/b3ee3fc35) Btcgreenify example config and help strings
 - [`6ab9e6b90`](https://github.com/fxtechcore/btcgreen/commit/6ab9e6b90) Add missing colons to Result/Example help strings
 - [`5371ff4ef`](https://github.com/fxtechcore/btcgreen/commit/5371ff4ef) Disable contrib/rpm dist
 - [`df3159986`](https://github.com/fxtechcore/btcgreen/commit/df3159986) Use OpenMasternodeConnection in ThreadMnbRequestConnections
@@ -285,8 +285,8 @@
 - [`41ef1f98e`](https://github.com/fxtechcore/btcgreen/commit/41ef1f98e) Remove comment about masternode connections
 - [`4ee0657f8`](https://github.com/fxtechcore/btcgreen/commit/4ee0657f8) Do not add to vNodes until fOneShot/fFeeler/fAddNode have been set
 - [`ea7361499`](https://github.com/fxtechcore/btcgreen/commit/ea7361499) Use EXIT_FAILURE when calling exit()
-- [`997f9f795`](https://github.com/fxtechcore/btcgreen/commit/997f9f795) Dashify build-windows.md
-- [`c0607af9d`](https://github.com/fxtechcore/btcgreen/commit/c0607af9d) Dashify part of developer-notes.md
+- [`997f9f795`](https://github.com/fxtechcore/btcgreen/commit/997f9f795) Btcgreenify build-windows.md
+- [`c0607af9d`](https://github.com/fxtechcore/btcgreen/commit/c0607af9d) Btcgreenify part of developer-notes.md
 - [`5c860b347`](https://github.com/fxtechcore/btcgreen/commit/5c860b347) Merge #9330: [Qt] Console: add security warning
 - [`91dc00515`](https://github.com/fxtechcore/btcgreen/commit/91dc00515) Merge #9344: Do not run functions with necessary side-effects in assert()
 - [`11e27d7af`](https://github.com/fxtechcore/btcgreen/commit/11e27d7af) Add missing null checks in wallet/crypto_tests.cpp
@@ -338,9 +338,9 @@
 - [`f831710f4`](https://github.com/fxtechcore/btcgreen/commit/f831710f4) Merge #9139: Change sync_blocks to pick smarter maxheight (on top of #9196)
 - [`b6ea01e07`](https://github.com/fxtechcore/btcgreen/commit/b6ea01e07) Remove namespace alert_tests when including alert test data
 - [`7939a23e3`](https://github.com/fxtechcore/btcgreen/commit/7939a23e3) Use std::move when calling MakeTransactionRef
-- [`d0a39fbcf`](https://github.com/fxtechcore/btcgreen/commit/d0a39fbcf) Use "Btcgreen Core" instead of "btcgreen-core" in some places and Dashify
+- [`d0a39fbcf`](https://github.com/fxtechcore/btcgreen/commit/d0a39fbcf) Use "Btcgreen Core" instead of "btcgreen-core" in some places and Btcgreenify
 - [`9170c0e9c`](https://github.com/fxtechcore/btcgreen/commit/9170c0e9c) Fix rpc tests
-- [`76d7730a5`](https://github.com/fxtechcore/btcgreen/commit/76d7730a5) Dashify ISSUE_TEMPLATE.md
+- [`76d7730a5`](https://github.com/fxtechcore/btcgreen/commit/76d7730a5) Btcgreenify ISSUE_TEMPLATE.md
 - [`07cd44c0e`](https://github.com/fxtechcore/btcgreen/commit/07cd44c0e) Use MakeTransactionRef in CreateDevNetGenesisBlock
 - [`e02f31347`](https://github.com/fxtechcore/btcgreen/commit/e02f31347) Mogrify and optimize network_disabled.png and copy it to all themes
 - [`796bed124`](https://github.com/fxtechcore/btcgreen/commit/796bed124) Merge #9207: [Doc] Move comments above bash command in build-unix
@@ -388,8 +388,8 @@
 - [`4a19af7bd`](https://github.com/fxtechcore/btcgreen/commit/4a19af7bd) Use correct version for fee estimates db
 - [`fc95cbb49`](https://github.com/fxtechcore/btcgreen/commit/fc95cbb49) Use nPowTargetSpacing in SendCoinsDialog::updateGlobalFeeVariables
 - [`c5bfd2157`](https://github.com/fxtechcore/btcgreen/commit/c5bfd2157) Fix version check in CBlockPolicyEstimator::Read
-- [`12d8ed437`](https://github.com/fxtechcore/btcgreen/commit/12d8ed437) Dashify DIST_CONTRIB in Makefile.am
-- [`d45201896`](https://github.com/fxtechcore/btcgreen/commit/d45201896) Dashify generatetoaddress help string
+- [`12d8ed437`](https://github.com/fxtechcore/btcgreen/commit/12d8ed437) Btcgreenify DIST_CONTRIB in Makefile.am
+- [`d45201896`](https://github.com/fxtechcore/btcgreen/commit/d45201896) Btcgreenify generatetoaddress help string
 - [`6eaafa86b`](https://github.com/fxtechcore/btcgreen/commit/6eaafa86b) Merge #7730: Remove priority estimation
 - [`9be592806`](https://github.com/fxtechcore/btcgreen/commit/9be592806) Merge #8709: Allow filterclear messages for enabling TX relay only.
 - [`84559c056`](https://github.com/fxtechcore/btcgreen/commit/84559c056) Merge #9052: Use RelevantServices instead of node_network in AttemptToEvict.
@@ -445,7 +445,7 @@
 - [`8f13e2537`](https://github.com/fxtechcore/btcgreen/commit/8f13e2537) Remove doubled "./" from bitcoin-util-test.json
 - [`6989f94d6`](https://github.com/fxtechcore/btcgreen/commit/6989f94d6) Get rid of InsecureRand and use equivalent FastRandomContext
 - [`5b8946cad`](https://github.com/fxtechcore/btcgreen/commit/5b8946cad) Add Btcgreen Copyright to Makefiles modified by Btcgreen developers
-- [`7604a3a0e`](https://github.com/fxtechcore/btcgreen/commit/7604a3a0e) Dashify INSTALL.md and build-unix.md
+- [`7604a3a0e`](https://github.com/fxtechcore/btcgreen/commit/7604a3a0e) Btcgreenify INSTALL.md and build-unix.md
 - [`89e959d30`](https://github.com/fxtechcore/btcgreen/commit/89e959d30) Merge #8936: Report NodeId in misbehaving debug
 - [`b84ea46ed`](https://github.com/fxtechcore/btcgreen/commit/b84ea46ed) Merge #8965: Mention that PPA doesn't support Debian
 - [`c8584293a`](https://github.com/fxtechcore/btcgreen/commit/c8584293a) Backport changes to ccoins_caching.cpp which were skipped
@@ -552,7 +552,7 @@
 - [`8efec7b06`](https://github.com/fxtechcore/btcgreen/commit/8efec7b06) Fix wallet-accounts.py tests
 - [`fdd063816`](https://github.com/fxtechcore/btcgreen/commit/fdd063816) Merge #8928: Fix init segfault where InitLoadWallet() calls ATMP before genesis
 - [`610470c73`](https://github.com/fxtechcore/btcgreen/commit/610470c73) Remove bitcoin man pages and call gen-manpages.sh for Btcgreen
-- [`f9694badb`](https://github.com/fxtechcore/btcgreen/commit/f9694badb) Dashify gen-manpages.sh
+- [`f9694badb`](https://github.com/fxtechcore/btcgreen/commit/f9694badb) Btcgreenify gen-manpages.sh
 - [`5691cee8d`](https://github.com/fxtechcore/btcgreen/commit/5691cee8d) Merge #8608: Install manpages via make install, also add some autogenerated manpages
 - [`85c0aabc1`](https://github.com/fxtechcore/btcgreen/commit/85c0aabc1) Merge #8667: Fix SIGHASH_SINGLE bug in test_framework SignatureHash
 - [`3baee7ba2`](https://github.com/fxtechcore/btcgreen/commit/3baee7ba2) Merge #8681: Performance Regression Fix: Pre-Allocate txChanged vector
@@ -579,7 +579,7 @@
 - [`d16b2e5ec`](https://github.com/fxtechcore/btcgreen/commit/d16b2e5ec) Merge #8621: [contrib] python: Don't use shell=True
 - [`3b45caeeb`](https://github.com/fxtechcore/btcgreen/commit/3b45caeeb) Merge #8626: Berkeley DB v6 compatibility fix
 - [`f6658c07f`](https://github.com/fxtechcore/btcgreen/commit/f6658c07f) Merge #8611: Reduce default number of blocks to check at startup
-- [`40202ef81`](https://github.com/fxtechcore/btcgreen/commit/40202ef81) Dashify gitian-build.sh
+- [`40202ef81`](https://github.com/fxtechcore/btcgreen/commit/40202ef81) Btcgreenify gitian-build.sh
 - [`fc34ec4b3`](https://github.com/fxtechcore/btcgreen/commit/fc34ec4b3) Merge #8566: Easy to use gitian building script
 - [`e8e95994b`](https://github.com/fxtechcore/btcgreen/commit/e8e95994b) Merge #8625: [doc] - clarify statement about parallel jobs in rpc-tests.py
 - [`2da811bec`](https://github.com/fxtechcore/btcgreen/commit/2da811bec) Merge #8624: [doc] build: Mention curl
@@ -607,9 +607,9 @@
 - [`39909d373`](https://github.com/fxtechcore/btcgreen/commit/39909d373) Merge #8558: Add copyright header to wallet_text_fixture.cpp
 - [`e2a795fd8`](https://github.com/fxtechcore/btcgreen/commit/e2a795fd8) Return EXIT_SUCCESS instead of 0 in main()
 - [`e3da73ebf`](https://github.com/fxtechcore/btcgreen/commit/e3da73ebf) Update Btcgreen related code to use new SyncTransaction notifications interface
-- [`ebc466dbd`](https://github.com/fxtechcore/btcgreen/commit/ebc466dbd) Revert test_bitcoin.info to test_dash.info in Makefile.am
+- [`ebc466dbd`](https://github.com/fxtechcore/btcgreen/commit/ebc466dbd) Revert test_bitcoin.info to test_btcgreen.info in Makefile.am
 - [`f8ffc55af`](https://github.com/fxtechcore/btcgreen/commit/f8ffc55af) Partially cherry-pick tests refactorings found in Bitcoin SegWit PRs
-- [`8460a9b97`](https://github.com/fxtechcore/btcgreen/commit/8460a9b97) Dashify translation_process.md
+- [`8460a9b97`](https://github.com/fxtechcore/btcgreen/commit/8460a9b97) Btcgreenify translation_process.md
 - [`5b62ad34a`](https://github.com/fxtechcore/btcgreen/commit/5b62ad34a) Merge #8551: [qa] Remove unused code
 - [`b47cc1331`](https://github.com/fxtechcore/btcgreen/commit/b47cc1331) Merge #8548: [wallet]  Use __func__ to get function name for output printing
 - [`ae90d0f09`](https://github.com/fxtechcore/btcgreen/commit/ae90d0f09) Align HD wallet status icon code with Bitcoin code
@@ -708,10 +708,10 @@
 - [`2b4e896f6`](https://github.com/fxtechcore/btcgreen/commit/2b4e896f6) Merge #8197: [trivial] Ignore split-debug.sh
 - [`0c6122634`](https://github.com/fxtechcore/btcgreen/commit/0c6122634) Also revert BLOCK_DOWNLOAD_TIMEOUT_PER_PEER to 500000
 - [`c7937c202`](https://github.com/fxtechcore/btcgreen/commit/c7937c202) Remove unnecessary call to AddInventoryKnown in INV message handling
-- [`e3ca41b1c`](https://github.com/fxtechcore/btcgreen/commit/e3ca41b1c) Dashify build-osx.md
+- [`e3ca41b1c`](https://github.com/fxtechcore/btcgreen/commit/e3ca41b1c) Btcgreenify build-osx.md
 - [`49f9d613b`](https://github.com/fxtechcore/btcgreen/commit/49f9d613b) Revert to BLOCK_DOWNLOAD_TIMEOUT_BASE = 1000000
 - [`f00aeb87c`](https://github.com/fxtechcore/btcgreen/commit/f00aeb87c) Fix failing test in p2p-fullblocktest.py
-- [`05c8f2ee2`](https://github.com/fxtechcore/btcgreen/commit/05c8f2ee2) Dashify new tests in bitcoin-util-test.json
+- [`05c8f2ee2`](https://github.com/fxtechcore/btcgreen/commit/05c8f2ee2) Btcgreenify new tests in bitcoin-util-test.json
 - [`2e51d8273`](https://github.com/fxtechcore/btcgreen/commit/2e51d8273) Merge #8201: [qa] fundrawtransaction: Fix race, assert amounts
 - [`e7e3a8071`](https://github.com/fxtechcore/btcgreen/commit/e7e3a8071) Merge #8141: Continuing port of java comparison tool
 - [`6a698300a`](https://github.com/fxtechcore/btcgreen/commit/6a698300a) Merge #7598: Refactor CreateNewBlock to be a method of the BlockAssembler class
@@ -765,17 +765,17 @@
 - [`bef036125`](https://github.com/fxtechcore/btcgreen/commit/bef036125) Merge #7877: Change mapRelay to store CTransactions
 - [`2dc71e8e0`](https://github.com/fxtechcore/btcgreen/commit/2dc71e8e0) Revert deadlock fix in ProcessGetData
 - [`d8c5a5900`](https://github.com/fxtechcore/btcgreen/commit/d8c5a5900) Merge #8090: Adding P2SH(p2pkh) script test case
-- [`34b7fddde`](https://github.com/fxtechcore/btcgreen/commit/34b7fddde) Dashify benchmarking.md binary name
+- [`34b7fddde`](https://github.com/fxtechcore/btcgreen/commit/34b7fddde) Btcgreenify benchmarking.md binary name
 - [`475dbd49b`](https://github.com/fxtechcore/btcgreen/commit/475dbd49b) Pass sys.stdout to Popen instead of subprocess.STDOUT
 - [`a0481f1ed`](https://github.com/fxtechcore/btcgreen/commit/a0481f1ed) Merge #8750: [qa] Refactor RPCTestHandler to prevent TimeoutExpired
-- [`5496e468a`](https://github.com/fxtechcore/btcgreen/commit/5496e468a) Dashify a few docs and the use of an address
+- [`5496e468a`](https://github.com/fxtechcore/btcgreen/commit/5496e468a) Btcgreenify a few docs and the use of an address
 - [`5ba21d4e3`](https://github.com/fxtechcore/btcgreen/commit/5ba21d4e3) Revert "ReprocessBlocks"->"ResetBlockFailureFlags" in debug message
 - [`b1df5e9e8`](https://github.com/fxtechcore/btcgreen/commit/b1df5e9e8) Align sorting in OverviewPage::SetupTransactionList with transaction view
 - [`abe84cb9e`](https://github.com/fxtechcore/btcgreen/commit/abe84cb9e) Use GetStrongRandBytes in CMnemonic::Generate
 - [`249167ab8`](https://github.com/fxtechcore/btcgreen/commit/249167ab8) Python 3 in .travis.yml
-- [`a1111cdf6`](https://github.com/fxtechcore/btcgreen/commit/a1111cdf6) Dashify addresses/keys in signmessages.py RPC test
+- [`a1111cdf6`](https://github.com/fxtechcore/btcgreen/commit/a1111cdf6) Btcgreenify addresses/keys in signmessages.py RPC test
 - [`21aaf9289`](https://github.com/fxtechcore/btcgreen/commit/21aaf9289) Introduce redirect_stderr argument to start_node
-- [`fbe36d3db`](https://github.com/fxtechcore/btcgreen/commit/fbe36d3db) Pass -createwalletbackups=0 to dashd when running rpc tests
+- [`fbe36d3db`](https://github.com/fxtechcore/btcgreen/commit/fbe36d3db) Pass -createwalletbackups=0 to btcgreend when running rpc tests
 - [`69dd8f4a6`](https://github.com/fxtechcore/btcgreen/commit/69dd8f4a6) Python 3 fixes/porting in rpc tests
 - [`2924b3440`](https://github.com/fxtechcore/btcgreen/commit/2924b3440) Cast command to str when calling show_debug_msg
 - [`6dc4a1385`](https://github.com/fxtechcore/btcgreen/commit/6dc4a1385) Merge #8110: [Doc] Add benchmarking notes
@@ -830,11 +830,11 @@
 - [`33233409a`](https://github.com/fxtechcore/btcgreen/commit/33233409a) Merge #7966: http: Do a pending c++11 simplification handling work items
 - [`90b00cfc6`](https://github.com/fxtechcore/btcgreen/commit/90b00cfc6) Merge #7953: Create signmessagewithprivkey rpc
 - [`233493b71`](https://github.com/fxtechcore/btcgreen/commit/233493b71) Delete old "btcgreen" registry key when installing/uninstalling
-- [`b78bd5cc7`](https://github.com/fxtechcore/btcgreen/commit/b78bd5cc7) Dashify help text of fundrawtransaction
+- [`b78bd5cc7`](https://github.com/fxtechcore/btcgreen/commit/b78bd5cc7) Btcgreenify help text of fundrawtransaction
 - [`da2de0771`](https://github.com/fxtechcore/btcgreen/commit/da2de0771) Put ps_rounds to the bottom of the result of listunspent
 - [`15fc7f213`](https://github.com/fxtechcore/btcgreen/commit/15fc7f213) De-bump fees in miner_tests.cpp
 - [`7d4046186`](https://github.com/fxtechcore/btcgreen/commit/7d4046186) Fix failing fundrawtransaction tests
-- [`2c63839f2`](https://github.com/fxtechcore/btcgreen/commit/2c63839f2) Dashify fundrawtransaction exception
+- [`2c63839f2`](https://github.com/fxtechcore/btcgreen/commit/2c63839f2) Btcgreenify fundrawtransaction exception
 - [`f8ad2ffa7`](https://github.com/fxtechcore/btcgreen/commit/f8ad2ffa7) Merge #7977: [trivial] Add missing const qualifiers.
 - [`e6b2f918d`](https://github.com/fxtechcore/btcgreen/commit/e6b2f918d) Merge #7968: doc: Fedora build requirements
 - [`79fe8e45f`](https://github.com/fxtechcore/btcgreen/commit/79fe8e45f) Merge #8002: [depends] Add -stdlib=libc++ to darwin CXX flags
@@ -859,7 +859,7 @@
 - [`1b17e94ee`](https://github.com/fxtechcore/btcgreen/commit/1b17e94ee) Merge #7900: fix spelling mistake
 - [`96f9a7c3e`](https://github.com/fxtechcore/btcgreen/commit/96f9a7c3e) Merge #7897: add missing newline
 - [`cfb8b82dc`](https://github.com/fxtechcore/btcgreen/commit/cfb8b82dc) Merge #7848: Divergence between 32- and 64-bit when hashing >4GB affects `gettxoutsetinfo`
-- [`c172273e4`](https://github.com/fxtechcore/btcgreen/commit/c172273e4) Dashify new binary name variables
+- [`c172273e4`](https://github.com/fxtechcore/btcgreen/commit/c172273e4) Btcgreenify new binary name variables
 - [`9bd55b1bf`](https://github.com/fxtechcore/btcgreen/commit/9bd55b1bf) Merge #7603: Build System: Use PACKAGE_TARNAME in NSIS script
 - [`6c7d13380`](https://github.com/fxtechcore/btcgreen/commit/6c7d13380) Merge #7518: Add multiple options to fundrawtransaction
 - [`f1197476a`](https://github.com/fxtechcore/btcgreen/commit/f1197476a) Merge #7870: [contrib] Add MarcoFalke key and move all keys to contrib/gitian-keys

@@ -5,21 +5,21 @@
 if [ -d "/var/lib/btcgreen/.btcgreen" ]; then
 	BITCOIND_DEFAULT_DATADIR="/var/lib/btcgreen/.btcgreen"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/dashd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/btcgreend"
 fi
 
 BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/btcgreen/btcgreen.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/dashd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/dashd.pid}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/btcgreend}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/btcgreend.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
 BITCOIND_USER=${BITCOIND_USER:-btcgreen}
 BITCOIND_GROUP=${BITCOIND_GROUP:-btcgreen}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/dashd}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/btcgreend}
 
 name="Btcgreen Core Daemon"
 description="Btcgreen crypto-currency p2p network daemon"
 
-command="/usr/bin/dashd"
+command="/usr/bin/btcgreend"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run dashd."
+		eerror "ERROR: You must set a secure rpcpassword to run btcgreend."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
